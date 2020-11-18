@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p, h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #10242b;
+}
+p {
+    font-size: 14px;
+}
+p.grey-text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #5c666a;
+    letter-spacing: 0.15px;
+}
+
+.form {
+    min-height: 634px;
+    background-color: #ecf1f7;
+    padding: 90px 0 100px;
+}
+a {
+    font-size: 14px;
+}
+a.contact {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2b3a40;
+    letter-spacing: 0.16px;
+    text-decoration: underline #2b3a40;
+}
+
+.input-field {
+    height: 54px;
+    margin-bottom: 28px;
+    margin-top: 17px;
+}
+
+.input-area {
+    min-height: 124px;
+    height: 124px;
+    padding-bottom: 35px;
+}
+
+::-moz-placeholder { 
+    opacity: 1;
+}
+
+:placeholder-shown {
+    padding-left: 28px;
+}
+
+.input-field, .input-area, ::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0b0f12;
+    padding: 20px 28px;
+}
+
+.input-area, .input-field {
+    border: 2px solid #e3e7ea;
+}
+
+.ask {
+    width: 151px;
+    height: 48px;
+    background-color: #67b930;
+    margin-top: 35px;
+    color: #fff;
+}
+
+.title{
+    margin-top: 96px;
+    margin-bottom:25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.search{
+    padding: 20px 0 20px 25px;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.question_text{
+    margin-bottom:30px;
+}
+
+.answer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    margin: 30px 30px;
+}
+
+.answer-last{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    margin: 30px;
+}
+
+.arrow_icon {
+    margin-right: 20px;
+}
+.text_question{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.last_text{ 
+    margin-bottom: 75px;
+} 
+
+hr{
+    width: 100%; 
+    height: 2px; 
+    background-color: #22282c;
+}
+
+.bg_image {
+    height: 250px;
+    background-color: #9b9fa0;
+}
+
+.faq {
+    padding-top: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.header_contact {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.phone_icon{
+    padding-top: 15px;
+}
+
+.menu {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.call_us{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.number {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
